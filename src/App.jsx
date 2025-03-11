@@ -20,9 +20,9 @@ function Titulo({ toursDestacados }) {
 function Tours({ tours }) {
   /* Recorremos array
     Indicamos que si el tour no tiene info no lo muestre
-    Se realizan tres diferentes comprobaciones para probar cada una de ellas en destacado, imagen y precio
+    Se realizan tres diferentes métodos, para probar cada una de ellas, en {destacado}, {imagen} y {precio}
         1. Precio:
-            Realizamos confición if else, si el precio existe se muestra, sino se muestra un mensaje.
+            Realizamos condición if else, si el precio existe se muestra, sino se muestra un mensaje.
         2. Destacado
             Operador lógico, si destacado es true pondrá en el className 'destacado' para resaltarlo.
         3. Imágen
